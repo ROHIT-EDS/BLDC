@@ -183,7 +183,7 @@ class _ControllerScreenState extends State<ControllerScreen> {
       // Handle any errors (e.g., Bluetooth connection issues)
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(SnackBar(content: Text('Failed to change mode: $e')));
+      ).showSnackBar(SnackBar(content: Text('Failed to change modes: $e')));
     }
   }
 
